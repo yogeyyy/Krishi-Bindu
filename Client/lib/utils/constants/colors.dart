@@ -4,7 +4,7 @@ class TColors {
   TColors._();
 
   // App Basic colors
-  static const Color primary = Color(0xFF980E27);
+  static const Color primary = Color(0xFF2D3C1F);
   static const Color secondary = Color(0xFFF09592);
   static const Color accent = Color(0xFFF5B1B0);
 
@@ -19,9 +19,9 @@ class TColors {
   static const Color primaryBackground = Color(0xFFFEE7DF);
 
   // Shades
-  static const Color myblack = Color(0xFF0C0B10);
+  static const Color myblack = Color(0xFF980E270C0B10);
   static const Color burgandy = Color(0xFF710816);
-  static const Color rani = Color(0xFF980E27);
+  static const Color rani = Color(0xFF2D3C1F);
   static const Color brightpink = Color(0xFFE8354D);
   static const Color dimgrey = Color(0xFF5C5552);
   static const Color battleship = Color(0xFF5C5552);
