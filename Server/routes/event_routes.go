@@ -8,7 +8,7 @@ import (
 )
 
 func SetupEventRoutes(router *gin.Engine) {
-	eventRoutes := router.Group("/api/events")
+	eventRoutes := router.Group("/api/event")
 	{
 		eventRoutes.POST("/", controllers.CreateEvent)
 		eventRoutes.GET("/", controllers.GetEvents)

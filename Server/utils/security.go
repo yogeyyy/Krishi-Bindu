@@ -18,3 +18,6 @@ func HashPassword(password string) (string, error) {
 func ComparePasswords(hashedPassword, password string) error {
    return bcrypt.CompareHashAndPassword([]byte(hashedPassword), []byte(password))
 }
+
+
+

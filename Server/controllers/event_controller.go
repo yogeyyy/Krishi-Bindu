@@ -19,7 +19,7 @@ func CreateEvent(c *gin.Context) {
 	}
 
 	// Add the event to Firestore
-	docRef, _, err := db.FirestoreClient.Collection("events").Add(context.Background(), event)
+	docRef, _, err := db.FirestoreClient.Collection("event").Add(context.Background(), event)
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to create event"})
 		return
@@ -43,7 +43,7 @@ func CreateEvent(c *gin.Context) {
 func GetEvents(c *gin.Context) {
 	events := []models.Event{}
 
-	iter := db.FirestoreClient.Collection("events").Documents(context.Background())
+	iter := db.FirestoreClient.Collection("event").Documents(context.Background())
 	for {
 		docSnapshot, err := iter.Next()
 		if err != nil {
@@ -63,7 +63,7 @@ func GetEvents(c *gin.Context) {
 func GetEventByID(c *gin.Context) {
 	eventID := c.Param("id")
 
-	docSnapshot, err := db.FirestoreClient.Collection("events").Doc(eventID).Get(context.Background())
+	docSnapshot, err := db.FirestoreClient.Collection("event").Doc(eventID).Get(context.Background())
 	if err != nil {
 		c.JSON(http.StatusNotFound, gin.H{"error": "Event not found"})
 		return
@@ -80,7 +80,7 @@ func UpdateEvent(c *gin.Context) {
 	eventID := c.Param("id")
 
 	// Retrieve the existing event document from Firestore
-	eventRef := db.FirestoreClient.Collection("events").Doc(eventID)
+	eventRef := db.FirestoreClient.Collection("event").Doc(eventID)
 	_, err := eventRef.Get(context.Background())
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve event"})
@@ -196,7 +196,7 @@ func RegisterUserForEvent(c *gin.Context) {
 	userID := c.Query("user") // Assuming user ID is stored in the request context
 
 	// Retrieve the event from the database
-	eventRef := db.FirestoreClient.Collection("events").Doc(eventID)
+	eventRef := db.FirestoreClient.Collection("event").Doc(eventID)
 	_, err := eventRef.Get(context.Background())
 	if err != nil {
 		c.JSON(http.StatusInternalServerError, gin.H{"error": "Failed to retrieve event"})

@@ -15,7 +15,7 @@ var AuthClient *auth.Client
 
 func InitFirestore() error {
 	ctx := context.Background()
-	conf := &firebase.Config{ProjectID: "gsc-iiit-kota"}
+	conf := &firebase.Config{ProjectID: "krishi-bindu-5f66c"}
 	app, err := firebase.NewApp(ctx, conf)
 	if err != nil {
 		log.Fatalln(err)
