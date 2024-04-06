@@ -1,7 +1,7 @@
 # Team Jacobs creek
 # कृषि बिन्दु App
 
-![App Logo](https://avatars.githubusercontent.com/u/156350980?s=200&v=4)
+<!-- ![App Logo](https://avatars.githubusercontent.com/u/156350980?s=200&v=4) -->
 
 The **कृषि बिन्दु App** is a go-to app for farming success! With a friendly chatbot ready to answer all the agricultural queries, a treasure trove of videos and articles to keep the farmer updated on the latest farming techniques, and a buzzing community platform where farmers share their stories and insights. Plus, they get the scoop on government schemes and NGO initiatives! It's your ultimate agriculture companion!
 
@@ -33,6 +33,7 @@ Farmers lack access to reliable information and support for sustainable agricult
   - Provides information on government schemes, campaigns, and NGOs working for the welfare of farmers.
   - Farmers can stay informed about available resources and support systems to improve their livelihoods.
   - Empowers farmers with knowledge about initiatives aimed at agricultural development and welfare.
+
 
 ## 🌟 Additional Features
 
@@ -75,6 +76,11 @@ Farmers lack access to reliable information and support for sustainable agricult
 
 ---
 
+## 👨🏼‍💻 Getting started + Prerequisites + Installation
+
+1. **Client Side:**https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/blob/main/Client/README.md
+2. **Server Side:**https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/blob/main/Server/README.md
+
 ## 🎯 Future Goals
 
 - **Image Classification for Crop Disease Identification:** 
@@ -90,17 +96,27 @@ Farmers lack access to reliable information and support for sustainable agricult
 ---
 
 ## 👍Acknowledgements
-1. *Chatbot:*
-   - *Role:* Facilitates personalized assistance and interaction with users through natural language processing.
-   - *Participant:* Gemini API
-     - Provides the chatbot functionality with advanced natural language understanding capabilities.
-   
-2. *Frontend:*
-   - *Role:* Presents the user interface and facilitates user interaction with the app.
-   - *Participant:* Android SDK
+
+We extend our heartfelt gratitude to Wittyhacks, Central India’s premier community hackathon, for providing us with the opportunity to participate in their 36-hour offline hackathon experience. Wittyhacks has consistently served as a beacon for innovation, bringing together tech enthusiasts and visionaries to tackle real-world challenges through technology.
+
+Special thanks to datacode.in for presenting this remarkable event, further enriching the hackathon experience and empowering us to push the boundaries of innovation.
+
+---
+## 🙏 Contributions
+
+1. **Tanishq Gupta:**
+   - **Role:**  Manages data storage, processing, and communication between frontend and external APIs.
+   - **Contribution:** Server Infrastructure
+     - Hosts the backend services responsible for handling user requests, managing data, and integrating with external APIs such as weather prediction and crop disease identification. 
+
+2. **Yogit Nainani:**
+   - **Role:**  Presents the user interface and facilitates user interaction with the app.
+   - **Contribution:** Android SDK
      - Provides tools and libraries for developing the user interface and frontend functionality of the Android app.
-   
-3. *Backend:*
-   - *Role:* Manages data storage, processing, and communication between frontend and external APIs.
-   - *Participant:* Server Infrastructure
-     - Hosts the backend services responsible for handling user requests, managing data, and integrating with external APIs such as weather prediction and crop disease identification.
+
+3. **Lakshita Saxena:**
+   - 
+   **Role:** Facilitates personalized assistance and interaction with users through natural language processing.
+   - **Contribution:** Gemini API
+     - Provides the chatbot functionality with advanced natural language understanding capabilities.
+
