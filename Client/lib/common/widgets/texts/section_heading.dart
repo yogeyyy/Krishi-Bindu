@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:solution_challenge/utils/constants/colors.dart';
 import 'package:solution_challenge/utils/helpers/helper_functions.dart';
+import 'package:solution_challenge/utils/translator/translated_strings.dart';
 
 class PSectionHeading extends StatelessWidget {
   const PSectionHeading({
@@ -8,7 +9,7 @@ class PSectionHeading extends StatelessWidget {
     this.textColor = Colors.white,
     this.showActionButton = true,
     required this.title,
-    this.buttonTitle = "View all",
+    this.buttonTitle =  "View all",
     this.onPressed,
   });
 
@@ -36,7 +37,7 @@ class PSectionHeading extends StatelessWidget {
           TextButton(
               onPressed: onPressed,
               style: TextButton.styleFrom(foregroundColor: dark ? TColors.brightpink : TColors.rani),
-              child: Text(buttonTitle))
+              child: Text(showActionButton ? buttonTitle : translatedStrings?[28] ?? "View all"))
       ],
     );
   }

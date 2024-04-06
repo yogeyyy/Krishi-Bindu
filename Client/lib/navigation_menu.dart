@@ -8,6 +8,7 @@ import 'package:solution_challenge/features/education/screens/resources/resource
 import 'package:solution_challenge/features/personalization/screens/settings/settings.dart';
 import 'package:solution_challenge/utils/constants/colors.dart';
 import 'package:solution_challenge/utils/helpers/helper_functions.dart';
+import 'package:solution_challenge/utils/translator/translated_strings.dart';
 
 class NavigationMenu extends StatelessWidget {
   const NavigationMenu({super.key});
@@ -29,15 +30,15 @@ class NavigationMenu extends StatelessWidget {
           indicatorColor: dark
               ? Colors.white.withOpacity(0.1)
               : Colors.black.withOpacity(0.1),
-          destinations: const [
-            NavigationDestination(icon: Icon(Iconsax.house), label: 'Home'),
+          destinations: [
+             NavigationDestination(icon: Icon(Iconsax.house), label: translatedStrings?[127] ?? 'Home'),
             NavigationDestination(
-                icon: Icon(Iconsax.messages_2), label: 'Chat'),
+                icon: const Icon(Iconsax.messages_2), label: translatedStrings?[129] ??'Chat'),
             NavigationDestination(
-                icon: Icon(Iconsax.message_text), label: 'Blogs'),
+                icon: const Icon(Iconsax.message_text), label:translatedStrings?[128] ?? 'Blogs'),
             NavigationDestination(
-                icon: Icon(Iconsax.money_send), label: 'Donate'),
-            NavigationDestination(icon: Icon(Iconsax.user), label: 'Profile'),
+                icon: const Icon(Iconsax.money_send), label: translatedStrings?[126] ??'Contribute'),
+            NavigationDestination(icon: const Icon(Iconsax.user), label:translatedStrings?[131] ?? 'Profile'),
           ],
         ),
       ),

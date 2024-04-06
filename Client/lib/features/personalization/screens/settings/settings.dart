@@ -92,7 +92,7 @@ class SettingsScreen extends StatelessWidget {
                       onTap: () => Get.to(() => const FavouriteBlogsScreen()),
                       icon: Iconsax.heart,
                       title: translatedStrings?[132] ?? "Favorite Blogs",
-                      subTitle: "Curate Your Preferred Reads"),
+                      subTitle: translatedStrings?[139] ?? "Curate Your Preferred Reads"),
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const MyDonationsScreen()),
                       icon: Iconsax.receipt,
@@ -122,7 +122,7 @@ class SettingsScreen extends StatelessWidget {
                     height: TSizes.spaceBtwItems,
                   ),
                   PSectionHeading(
-                    title: translatedStrings?[64] ?? 'App Settings',
+                    title: translatedStrings?[63] ?? 'App Settings',
                     textColor: dark ? Colors.white : Colors.black,
                     showActionButton: false,
                   ),
@@ -132,8 +132,8 @@ class SettingsScreen extends StatelessWidget {
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const LanguageScreen()),
                       icon: Iconsax.translate,
-                      title: translatedStrings?[65] ?? "Change language",
-                      subTitle: translatedStrings?[66] ??
+                      title: translatedStrings?[64] ?? "Change language",
+                      subTitle: translatedStrings?[65] ??
                           "Tailor your experience with a language switch")
                 ],
               ),

@@ -9,6 +9,7 @@ import 'package:solution_challenge/models/education/video.dart';
 import 'package:solution_challenge/utils/constants/colors.dart';
 import 'package:solution_challenge/utils/constants/sizes.dart';
 import 'package:solution_challenge/utils/helpers/helper_functions.dart';
+import 'package:solution_challenge/utils/translator/translator.dart';
 import '../../../../utils/datetime/date_time.dart';
 
 class PVideoCard extends StatelessWidget {

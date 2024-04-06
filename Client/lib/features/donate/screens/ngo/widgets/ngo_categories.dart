@@ -14,7 +14,7 @@ class PNgoCategories extends StatelessWidget {
 
   final List<Map<String, dynamic>> categories = [
     {
-      'name': "Campaigns",
+      'name': translatedStrings?[37] ??"Campaigns",
       'icon': TImages.campaignsIcon,
     },
     {
@@ -22,7 +22,7 @@ class PNgoCategories extends StatelessWidget {
       'icon': TImages.charityIcon,
     },
     {
-      'name': "Schemes",
+      'name': translatedStrings?[38] ??"Schemes",
       'icon': TImages.eventsIcon,
     },
   ];

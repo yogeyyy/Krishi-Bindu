@@ -129,7 +129,7 @@ class _ChatScreenState extends State<ChatScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text('Chat with Sevak',
+                            Text(translatedStrings?[40] ?? 'Chat with Sevak',
                                 style: Theme.of(context)
                                     .textTheme
                                     .headlineMedium!
@@ -149,7 +149,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
           ),
           const SizedBox(height: TSizes.spaceBtwItems / 2),
-          Text(translatedStrings?[88] ?? 'Today'),
+          Text(translatedStrings?[87] ?? 'Today'),
           const SizedBox(height: TSizes.spaceBtwItems),
           Expanded(
             child: Stack(

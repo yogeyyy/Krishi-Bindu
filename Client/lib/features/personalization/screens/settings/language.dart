@@ -42,8 +42,10 @@ class _LanguageScreenState extends State<LanguageScreen> {
   List<String> getTranslatedStrings() {
     switch (language) {
       case 'en':
+        const String appLanguage = "en";
         return en.originalStrings;
       case 'hi':
+        const String appLanguage = "hi";
         return hi.originalStrings;
       // case 'mr':
       //   return mr.originalStrings;
@@ -52,9 +54,11 @@ class _LanguageScreenState extends State<LanguageScreen> {
       // case 'ur':
       //   return ur.originalStrings;
       default:
+        const String appLanguage = "en";
         return en.originalStrings; // Default to English
     }
   }
+
 
   @override
   Widget build(BuildContext context) {
