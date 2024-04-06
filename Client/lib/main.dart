@@ -16,6 +16,7 @@ void main() async {
     ChangeNotifierProvider(
       create: (_) => UserProvider(),
       child: const App(),
+
     ),
   );
 }
