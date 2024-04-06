@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	// "Server/db"
-	// "Server/routes"
+	"Server/db"
+	"Server/routes"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
@@ -14,9 +14,9 @@ import (
 
 func main() {
 	// Initialize Firestore
-	// if err := db.InitFirestore(); err != nil {
-	// 	log.Fatalf("Error initializing Firestore: %v", err)
-	// }
+	if err := db.InitFirestore(); err != nil {
+		log.Fatalf("Error initializing Firestore: %v", err)
+	}
 
 	// Load .env file
 	err := godotenv.Load(".env")
@@ -33,6 +33,15 @@ func main() {
 	router.Use(cors.New(config))
 
 	// Set up routes
+	routes.SetupUserRoutes(router)
+	routes.SetupNGORoutes(router)
+	routes.SetupChatbotRoutes(router)
+	routes.SetupCampaignRoutes(router)
+	routes.SetupEventRoutes(router)
+	routes.SetupStripeRoutes(router)
+	routes.SetupArticleRoutes(router)
+	routes.SetupVideoRoutes(router)
+	routes.SetupBlogRoutes(router)
 
 	// Run the server
 	port := os.Getenv("PORT")
@@ -41,4 +50,3 @@ func main() {
 	}
 	router.Run(":" + port)
 }
-
