@@ -17,14 +17,14 @@ class TLoginHeader extends StatelessWidget {
           height: 150,
           image: AssetImage(TImages.loginSignupLogo),
         ),
-        Text(translatedStrings?[13] ?? "Connect with Period",
+        Text(translatedStrings?[13] ?? "Connect with Krishi Bindu",
             style: Theme.of(context).textTheme.headlineMedium),
         const SizedBox(
           height: TSizes.sm,
         ),
         Text(
             translatedStrings?[14] ??
-                "Join our community for personalized menstrual health support and resources.",
+                "Join our network for tailored agricultural guidance and resources, empowering your farming journey.",
             style: Theme.of(context).textTheme.bodyMedium),
       ],
     );
