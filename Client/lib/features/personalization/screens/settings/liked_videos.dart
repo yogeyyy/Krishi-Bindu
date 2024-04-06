@@ -21,7 +21,7 @@ class LikedVideosScreen extends StatelessWidget {
                   PAppBar(
                     showBackArrow: true,
                     title: Text(
-                      translatedStrings?[135] ?? 'Liked Videos',
+                      translatedStrings?[102] ?? 'Liked Videos',
                       style: Theme.of(context)
                           .textTheme
                           .headlineMedium!

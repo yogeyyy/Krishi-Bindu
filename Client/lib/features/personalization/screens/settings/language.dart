@@ -76,14 +76,14 @@ class _LanguageScreenState extends State<LanguageScreen> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                translatedStrings?[133] ?? 'Choose language',
+                translatedStrings?[100] ?? 'Choose language',
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               const SizedBox(
                 height: TSizes.sm,
               ),
               Text(
-                translatedStrings?[134] ??
+                translatedStrings?[101] ??
                     'Select the Language That Best Suits Your Preferences',
                 style: Theme.of(context).textTheme.bodyMedium,
               ),

@@ -29,7 +29,7 @@ class FavouriteBlogsScreen extends StatelessWidget {
                   PAppBar(
                     showBackArrow: true,
                     title: Text(
-                      translatedStrings?[132] ?? 'Favorite Blogs',
+                      translatedStrings?[109] ?? 'Favorite Blogs',
                       style: Theme.of(context)
                           .textTheme
                           .headlineMedium!

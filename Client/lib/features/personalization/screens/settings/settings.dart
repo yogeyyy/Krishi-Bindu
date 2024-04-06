@@ -87,12 +87,12 @@ class SettingsScreen extends StatelessWidget {
                       onTap: () => Get.to(() => const MyBlogsScreen()),
                       icon: Iconsax.path,
                       title: translatedStrings?[56] ?? "My Blogs",
-                      subTitle: translatedStrings?[138] ?? "Explore Your Written Insights"),
+                      subTitle: translatedStrings?[105] ?? "Explore Your Written Insights"),
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const FavouriteBlogsScreen()),
                       icon: Iconsax.heart,
-                      title: translatedStrings?[132] ?? "Favorite Blogs",
-                      subTitle: translatedStrings?[139] ?? "Curate Your Preferred Reads"),
+                      title: translatedStrings?[99] ?? "Favorite Blogs",
+                      subTitle: translatedStrings?[106] ?? "Curate Your Preferred Reads"),
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const MyDonationsScreen()),
                       icon: Iconsax.receipt,
@@ -102,27 +102,27 @@ class SettingsScreen extends StatelessWidget {
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const RegisteredEventsScreen()),
                       icon: Iconsax.bubble,
-                      title: translatedStrings?[137] ?? "Registered Events",
-                      subTitle: translatedStrings?[140] ?? "Stay Updated on Your Engagements"),
+                      title: translatedStrings?[104] ?? "Registered Events",
+                      subTitle: translatedStrings?[107] ?? "Stay Updated on Your Engagements"),
 
                   PSettingsMenuTile(
                     onTap: () => Get.to(() => const StarredArticlesScreen()),
                     icon: Iconsax.star,
-                    title: translatedStrings?[141] ?? "Starred Articles",
-                    subTitle: translatedStrings?[142] ?? "Access Your Starred Reads",
+                    title: translatedStrings?[108] ?? "Starred Articles",
+                    subTitle: translatedStrings?[109] ?? "Access Your Starred Reads",
                   ),
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const LikedVideosScreen()),
                       icon: Iconsax.like_1,
-                      title: translatedStrings?[135] ?? "Liked Videos",
-                      subTitle: translatedStrings?[143] ?? "Keep Your Preferred Videos Handy"),
+                      title: translatedStrings?[102] ?? "Liked Videos",
+                      subTitle: translatedStrings?[110] ?? "Keep Your Preferred Videos Handy"),
 
                   ///App Settings
                   const SizedBox(
                     height: TSizes.spaceBtwItems,
                   ),
                   PSectionHeading(
-                    title: translatedStrings?[63] ?? 'App Settings',
+                    title: translatedStrings?[64] ?? 'App Settings',
                     textColor: dark ? Colors.white : Colors.black,
                     showActionButton: false,
                   ),
@@ -132,8 +132,8 @@ class SettingsScreen extends StatelessWidget {
                   PSettingsMenuTile(
                       onTap: () => Get.to(() => const LanguageScreen()),
                       icon: Iconsax.translate,
-                      title: translatedStrings?[64] ?? "Change language",
-                      subTitle: translatedStrings?[65] ??
+                      title: translatedStrings?[65] ?? "Change language",
+                      subTitle: translatedStrings?[66] ??
                           "Tailor your experience with a language switch")
                 ],
               ),

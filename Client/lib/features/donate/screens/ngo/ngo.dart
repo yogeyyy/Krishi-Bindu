@@ -53,32 +53,32 @@ class NgoScreen extends StatelessWidget {
             ),
 
             /// Body
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: TSizes.defaultSpace),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: TSizes.defaultSpace),
               child: Column(
                 children: [
                   PCampaignSection(
-                    sectionHeading: 'New Campaigns',
+                    sectionHeading: translatedStrings?[111] ?? 'New Campaigns',
                     initiativeType: 'Campaigns',
                     cardHeight: 256,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
                   POrganisationSection(
-                    sectionHeading: 'NGOs',
-                    initiativeType: 'NGOs',
+                    sectionHeading: translatedStrings?[44] ?? 'NGOs',
+                    initiativeType: 'Organizations',
                     cardHeight: 80,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
                   PEventSection(
-                    sectionHeading: 'Upcoming Schemes',
+                    sectionHeading: translatedStrings?[112] ?? 'Upcoming Schemes',
                     initiativeType: 'Events',
                     cardHeight: 202,
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
                 ],

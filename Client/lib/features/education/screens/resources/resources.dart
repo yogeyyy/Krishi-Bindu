@@ -37,7 +37,7 @@ class EducationScreen extends StatelessWidget {
 
             ///SearchBar
             PSearchContainer(
-              text: translatedStrings?[91] ?? "Search Resources",
+              text: translatedStrings?[92] ?? "Search Resources",
             ),
             const SizedBox(
               height: TSizes.spaceBtwSections,

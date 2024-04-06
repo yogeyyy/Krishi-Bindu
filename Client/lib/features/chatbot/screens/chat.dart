@@ -149,7 +149,7 @@ class _ChatScreenState extends State<ChatScreen> {
             ),
           ),
           const SizedBox(height: TSizes.spaceBtwItems / 2),
-          Text(translatedStrings?[87] ?? 'Today'),
+          Text(translatedStrings?[88] ?? 'Today'),
           const SizedBox(height: TSizes.spaceBtwItems),
           Expanded(
             child: Stack(

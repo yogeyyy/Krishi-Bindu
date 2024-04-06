@@ -21,7 +21,7 @@ class StarredArticlesScreen extends StatelessWidget {
                   PAppBar(
                     showBackArrow: true,
                     title: Text(
-                      translatedStrings?[141] ?? 'Starred Articles',
+                      translatedStrings?[108] ?? 'Starred Articles',
                       style: Theme.of(context)
                           .textTheme
                           .headlineMedium!

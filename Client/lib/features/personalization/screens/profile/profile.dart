@@ -22,7 +22,7 @@ class ProfileScreen extends StatelessWidget {
       appBar: PAppBar(
         showBackArrow: true,
         backArrowColor: dark ? Colors.white : Colors.black,
-        title: Text(translatedStrings?[131] ?? 'Profile', style: Theme.of(context).textTheme.headlineMedium,),
+        title: Text(translatedStrings?[98] ?? 'Profile', style: Theme.of(context).textTheme.headlineMedium,),
       ),
 
       ///Body

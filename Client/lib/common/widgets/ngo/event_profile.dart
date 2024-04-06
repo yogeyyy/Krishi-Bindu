@@ -76,9 +76,9 @@ class _PEventProfileState extends State<PEventProfile> {
                     const SizedBox(height: TSizes.spaceBtwItems),
                     const PPeopleDonated(
                       userPhotos: [
-                        'https://pbs.twimg.com/profile_images/1601849162730905601/IskNG8bF_400x400.jpg',
-                        'https://pbs.twimg.com/profile_images/1601849162730905601/IskNG8bF_400x400.jpg',
-                        'https://pbs.twimg.com/profile_images/1601849162730905601/IskNG8bF_400x400.jpg',
+                        'https://pbs.twimg.com/profile_images/1765603481816313856/ZLSZO1U-_400x400.jpg',
+                        'https://pbs.twimg.com/profile_images/1765603481816313856/ZLSZO1U-_400x400.jpg',
+                        'https://pbs.twimg.com/profile_images/1765603481816313856/ZLSZO1U-_400x400.jpg',
                       ],
                       numberOfPeople: 120,
                       text: 'attending',

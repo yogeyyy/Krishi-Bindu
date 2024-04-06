@@ -31,14 +31,14 @@ class NavigationMenu extends StatelessWidget {
               ? Colors.white.withOpacity(0.1)
               : Colors.black.withOpacity(0.1),
           destinations: [
-             NavigationDestination(icon: Icon(Iconsax.house), label: translatedStrings?[127] ?? 'Home'),
+             NavigationDestination(icon: Icon(Iconsax.house), label: translatedStrings?[94] ?? 'Home'),
             NavigationDestination(
-                icon: const Icon(Iconsax.messages_2), label: translatedStrings?[129] ??'Chat'),
+                icon: const Icon(Iconsax.messages_2), label: translatedStrings?[96] ??'Chat'),
             NavigationDestination(
-                icon: const Icon(Iconsax.message_text), label:translatedStrings?[128] ?? 'Blogs'),
+                icon: const Icon(Iconsax.message_text), label:translatedStrings?[95] ?? 'Blogs'),
             NavigationDestination(
-                icon: const Icon(Iconsax.money_send), label: translatedStrings?[126] ??'Contribute'),
-            NavigationDestination(icon: const Icon(Iconsax.user), label:translatedStrings?[131] ?? 'Profile'),
+                icon: const Icon(Iconsax.money_send), label: translatedStrings?[93] ??'Contribute'),
+            NavigationDestination(icon: const Icon(Iconsax.user), label:translatedStrings?[98] ?? 'Profile'),
           ],
         ),
       ),

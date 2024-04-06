@@ -21,7 +21,7 @@ class RegisteredEventsScreen extends StatelessWidget {
                   PAppBar(
                     showBackArrow: true,
                     title: Text(
-                      translatedStrings?[137] ?? 'Registered Events',
+                      translatedStrings?[104] ?? 'Registered Events',
                       style: Theme.of(context)
                           .textTheme
                           .headlineMedium!
