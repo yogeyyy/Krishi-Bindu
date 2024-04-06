@@ -24,7 +24,7 @@ class OnBoardingScreen extends StatelessWidget {
             children: [
               OnBoardingPage(
                 image: TImages.onBoardingImage1,
-                title: translatedStrings?[0] ?? " Empowering Farmers Through Education",
+                title: translatedStrings?[0] ?? "Empowering Farmers Through Education",
                 subTitle: translatedStrings?[1] ??
                     "Providing Comprehensive Education and Resources to Empower Farmers in Cultivating Sustainable Agriculture",
               ),

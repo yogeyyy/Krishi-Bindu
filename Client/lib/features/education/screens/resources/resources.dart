@@ -51,7 +51,7 @@ class EducationScreen extends StatelessWidget {
                 children: [
                   ///Featured videos
                   PSectionHeading(
-                    title: translatedStrings?[41] ?? 'Featured Videos',
+                    title: translatedStrings?[41] ?? 'Featured Techniques',
                     textColor: dark ? Colors.white : Colors.black,
                     onPressed: () => Get.to(() => const PViewAllScreen(
                       initiativeType: 'Videos',

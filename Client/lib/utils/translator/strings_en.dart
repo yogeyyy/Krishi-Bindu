@@ -1,46 +1,46 @@
 List<String> originalStrings = [
-"Explore Your Cycle",
-"Access educational resources and valuable content for a healthier menstrual journey.",
-"Your Personal Guide",
-"Meet Paddy, Your Personal Chatbot Companion - ask questions freely, keep secrets private, and get personalized advice.",
-"Empower Change Through Donation and Engagement",
-"Support Causes, Share Stories, and Connect with Like-minded Individuals",
-'Menstrual Hygiene',
-"E-Mail",
-"Password",
-"Remember me",
-"Forgot Password?",
-"Sign In",
-"Create Account",
-"Connect with Period",
-"Join our community for personalized menstrual health support and resources.",
+"Empowering Farmers Through Education", //done
+"Providing Comprehensive Education and Resources to Empower Farmers in Cultivating Sustainable Agriculture.", //done
+"Your Farming Companion", //done
+"Introducing Krishi Bindu: Your Personalized Farming Assistant — Seek Guidance, Exchange Insights, and Cultivate Success Together!", //done
+"EnablingFarmers for Sustainable Growth with a community", //done
+"Access Comprehensive Resources, Foster Vibrant Community Networks, and Cultivate Success Together", //done
+'Good Morning', //done
+"E-Mail", //done
+"Password",//done
+"Remember me",//done
+"Forgot Password?",//done
+"Sign In",//done
+"Create Account",//done
+"Connect with Krishi Bindu", //done
+"Join our network for tailored agricultural guidance and resources, empowering your farming journey.", //done
 "Or Sign In with",
-"Skip",
-"Enter your email to receive instructions on resetting your password and regain access to Period.",
-"Submit",
-"Password Reset Email Sent",
-"Your account security is our priority! We've sent you a secure link to safely change your password and keep your account protected.",
-"Done",
-"Resend Email",
-"First Name",
-"Last Name",
-"Username",
-"Phone No.",
-"Create account",
+"Skip", //done
+"Enter your email to receive instructions on resetting your password and regain access to our app.", //done
+"Submit", //done
+"Password Reset Email Sent", //done
+"Your account security is our priority! We've sent you a secure link to safely change your password and keep your account protected.", //done
+"Done", //done
+"Resend Email", //done
+"First Name", //done
+"Last Name", //done
+"Username", //done
+"Phone No.", //done
+"Create account", //done
 "or sign up with",
 "Verify your email address",
-"Confirm your email address to unlock full access to Period's menstrual health resources.",
-"Your email has been successfully verified. Enjoy full access to menstrual health resources and community support.",
-"Continue",
-"Resend Email",
+"Confirm your email address to unlock full access to resources.",
+"Your email has been successfully verified. Enjoy full access to agricultural resources and community support.",
+"Continue", //done
+"Resend Email", //done
 "Type message",
 "Categories",
 'Organiser',
 'Campaigns',
 "Events",
 "Search Organizations",
-'Beginners guide to menstrual health',
-'Featured Videos',
+'Chat with Sevak',
+'Featured Techniques',
 'Latest Articles',
 'Course Details',
 'Introduction',
@@ -64,8 +64,8 @@ List<String> originalStrings = [
 "Your favorite reads",
 "Explore your saved educational treasures",
 'App Settings',
-"Change language",
-"Tailor your experience with a language switch",
+"Change language", // done
+"Tailor your experience with a language switch", // done
 "Welcome to Period!",
 "What are periods?",
 "Added to liked blogs",

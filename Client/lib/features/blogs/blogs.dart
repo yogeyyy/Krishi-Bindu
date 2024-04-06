@@ -73,8 +73,8 @@ class BlogScreen extends StatelessWidget {
                               imageUrl: blog.image,
                               blogTitle: blog.title,
                               blogCategory: blog.category,
-                              blogAuthor: blog.authorID,
-                              blogDate: formatTimeString(blog.date.toString()),
+                              blogAuthor: blog.authorName,
+                              blogDate: calculateTimeSince(blog.date.toString()),
                               blogContent: blog.content,
                               blogId: blog.id,
                             );
@@ -110,7 +110,7 @@ class PBlogAppBar extends StatelessWidget {
             style: Theme.of(context)
                 .textTheme
                 .labelMedium!
-                .apply(color: TColors.accent),
+                .apply(color: Colors.white),
           ),
           Text(
             user!.profile.firstName,

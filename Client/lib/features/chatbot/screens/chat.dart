@@ -129,7 +129,7 @@ class _ChatScreenState extends State<ChatScreen> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Text('Chat with Paddy',
+                            Text('Chat with Sevak',
                                 style: Theme.of(context)
                                     .textTheme
                                     .headlineMedium!

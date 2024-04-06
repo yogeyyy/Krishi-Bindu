@@ -129,7 +129,7 @@ class PVideoCard extends StatelessWidget {
                               iconSize: 14,
                               iconColor:
                                   dark ? TColors.brightpink : TColors.rani,
-                              title: video.title,
+                              title: video.category,
                               titleStyle: Theme.of(context)
                                   .textTheme
                                   .labelLarge!

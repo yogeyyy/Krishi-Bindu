@@ -22,7 +22,7 @@ class PNgoAppBar extends StatelessWidget {
               style: Theme.of(context)
                   .textTheme
                   .labelMedium!
-                  .apply(color: TColors.accent)),
+                  .apply(color: Colors.white)),
           Text("${user?.profile.firstName}",
               style: Theme.of(context)
                   .textTheme

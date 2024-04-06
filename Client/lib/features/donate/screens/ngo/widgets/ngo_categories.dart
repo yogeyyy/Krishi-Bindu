@@ -18,11 +18,11 @@ class PNgoCategories extends StatelessWidget {
       'icon': TImages.campaignsIcon,
     },
     {
-      'name': "Organizations",
+      'name': "NGOs",
       'icon': TImages.charityIcon,
     },
     {
-      'name': "Events",
+      'name': "Schemes",
       'icon': TImages.eventsIcon,
     },
   ];

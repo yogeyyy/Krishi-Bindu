@@ -66,15 +66,15 @@ class NgoScreen extends StatelessWidget {
                     height: TSizes.spaceBtwSections,
                   ),
                   POrganisationSection(
-                    sectionHeading: 'Organizations',
-                    initiativeType: 'Organizations',
+                    sectionHeading: 'NGOs',
+                    initiativeType: 'NGOs',
                     cardHeight: 80,
                   ),
                   SizedBox(
                     height: TSizes.spaceBtwSections,
                   ),
                   PEventSection(
-                    sectionHeading: 'Upcoming Events',
+                    sectionHeading: 'Upcoming Schemes',
                     initiativeType: 'Events',
                     cardHeight: 202,
                   ),

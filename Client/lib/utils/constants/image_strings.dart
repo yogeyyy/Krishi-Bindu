@@ -1,7 +1,7 @@
 class TImages {
   // App Logos
-  static const String lightAppLogo = "assets/logos/period_logo.png";
-  static const String darkAppLogo = "assets/logos/period_logo_dark.png";
+  static const String lightAppLogo = "assets/logos/krishibindu_logo_light.jpg";
+  static const String darkAppLogo = "assets/logos/krishibindu_logo_dark.jpeg";
 
   // social logos
   static const String google = "assets/logos/google.png";
@@ -16,7 +16,7 @@ class TImages {
       "assets/images/onboarding_images/screen_3.png";
 
   // Login_signup logo
-  static const String loginSignupLogo = "assets/logos/period_logo_drop.png";
+  static const String loginSignupLogo = "assets/logos/krishibindu_logo_light.jpg";
 
   // Login_signup images
   static const String verifyEmailImage =

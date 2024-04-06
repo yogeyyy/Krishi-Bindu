@@ -85,7 +85,7 @@ class PArticleScreen extends StatelessWidget {
                         iconData: Iconsax.category,
                         iconColor: dark ? TColors.brightpink : TColors.rani,
                         iconSize: 14,
-                        title: article.title,
+                        title: article.category,
                         titleStyle: Theme.of(context)
                             .textTheme
                             .labelLarge!

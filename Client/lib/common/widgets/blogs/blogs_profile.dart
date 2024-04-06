@@ -102,7 +102,7 @@ class PBlogProfile extends StatelessWidget {
                             iconData: Iconsax.user,
                             iconSize: 18,
                             iconColor: Colors.white,
-                            title: 'Ravina Tandon',
+                            title: blogAuthor,
                             titleStyle: Theme.of(context).textTheme.bodyLarge!.apply(
                               color: Colors.white,
                             ),

@@ -5,6 +5,7 @@ class StringTranslator {
   late final GoogleTranslator translator; // Initialize the translator
   List<String> inputList = originalStrings;
   late List<String> translatedList; // Variable to store translated strings
+  late String translatedString;
 
   StringTranslator() {
     // Initialize the translator
@@ -26,5 +27,14 @@ class StringTranslator {
       translatedList.add(translation.text);
     }
     return translatedList;
+  }
+
+  // Method to translate a single string to a specified language
+  Future<String> translateString(String input, String toLanguage) async {
+    Translation translation = await translator.translate(
+      input,
+      to: toLanguage,
+    );
+    return translation.text;
   }
 }
