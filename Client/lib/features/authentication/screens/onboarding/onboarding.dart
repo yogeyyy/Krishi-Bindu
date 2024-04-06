@@ -24,22 +24,22 @@ class OnBoardingScreen extends StatelessWidget {
             children: [
               OnBoardingPage(
                 image: TImages.onBoardingImage1,
-                title: translatedStrings?[0] ?? " Empowering Farmers Through Education",
+                title: translatedStrings?[0] ?? "Explore your cycle",
                 subTitle: translatedStrings?[1] ??
-                    "Providing Comprehensive Education and Resources to Empower Farmers in Cultivating Sustainable Agriculture ",
+                    "Access educational resources and valuable content for a healthier menstrual journey.",
               ),
               OnBoardingPage(
                 image: TImages.onBoardingImage2,
-                title: translatedStrings?[2] ?? "Your Farming Companion" ,
+                title: translatedStrings?[2] ?? "Your Personal Guide",
                 subTitle: translatedStrings?[3] ??
-                      "Access Comprehensive Resources, Foster Vibrant Community Networks, and Cultivate Success Together",
+                    "Meet Paddy, Your Personal Chatbot Companion — ask questions freely, keep secrets private, and get personalized advice.",
               ),
               OnBoardingPage(
                 image: TImages.onBoardingImage3,
                 title: translatedStrings?[4] ??
-                      "EnablingFarmers for Sustainable Growth with a community",
+                    "Empower Change Through Donation and Engagement",
                 subTitle: translatedStrings?[5] ??
-                      "Access Comprehensive Resources, Foster Vibrant Community Networks, and Cultivate Success Together",
+                    "Support Causes, Share Stories, and Connect with Like-minded Individuals.",
               ),
             ],
           ),

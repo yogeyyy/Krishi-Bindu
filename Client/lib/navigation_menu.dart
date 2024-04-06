@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
-import 'package:solution_challenge/features/blogs/blogs.dart';
+// import 'package:solution_challenge/features/blogs/blogs.dart';
 import 'package:solution_challenge/features/chatbot/screens/chat.dart';
-import 'package:solution_challenge/features/donate/screens/ngo/ngo.dart';
-import 'package:solution_challenge/features/education/screens/resources/resources.dart';
-import 'package:solution_challenge/features/personalization/screens/settings/settings.dart';
+// import 'package:solution_challenge/features/donate/screens/ngo/ngo.dart';
+// import 'package:solution_challenge/features/education/screens/resources/resources.dart';
+// import 'package:solution_challenge/features/personalization/screens/settings/settings.dart';
 import 'package:solution_challenge/utils/constants/colors.dart';
 import 'package:solution_challenge/utils/helpers/helper_functions.dart';
 
@@ -50,10 +50,10 @@ class NavigationController extends GetxController {
   final Rx<int> selectedIndex = 0.obs;
 
   final screens = [
-    const EducationScreen(),
+    // const EducationScreen(),
     const ChatScreen(),
-    const BlogScreen(),
-    const NgoScreen(),
-    const SettingsScreen()
+    // const BlogScreen(),
+    // const NgoScreen(),
+    // const SettingsScreen()
   ];
 }
