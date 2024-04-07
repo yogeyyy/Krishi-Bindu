@@ -1,6 +1,8 @@
 # Team Jacobs creek
 # कृषि बिन्दु App
 
+<img src="https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/assets/109305580/cd933e41-06cf-49fa-a1f7-b016c789ee19" width="250px" height="250px">
+
 
 The **कृषि बिन्दु App** is a go-to app for farming success! With a friendly chatbot ready to answer all the agricultural queries, a treasure trove of videos and articles to keep the farmer updated on the latest farming techniques, and a buzzing community platform where farmers share their stories and insights. Plus, they get the scoop on government schemes and NGO initiatives! It's your ultimate agriculture companion!
 
