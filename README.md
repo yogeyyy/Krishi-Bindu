@@ -1,7 +1,6 @@
 # Team Jacobs creek
 # कृषि बिन्दु App
 
-<!-- ![App Logo](https://avatars.githubusercontent.com/u/156350980?s=200&v=4) -->
 
 The **कृषि बिन्दु App** is a go-to app for farming success! With a friendly chatbot ready to answer all the agricultural queries, a treasure trove of videos and articles to keep the farmer updated on the latest farming techniques, and a buzzing community platform where farmers share their stories and insights. Plus, they get the scoop on government schemes and NGO initiatives! It's your ultimate agriculture companion!
 
@@ -48,6 +47,13 @@ Farmers lack access to reliable information and support for sustainable agricult
 ---
 
 ## 🖼️ App Screenshots
+<div style="display:flex; justify-content:center; overflow-x: auto; flex-wrap: nowrap; width: 100%;">]
+   <img src="https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/assets/109305580/98774e50-ca1a-41b0-9af0-a1df7f924af2" style="width: 150px; margin: 5px;">
+  <img src="https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/assets/109305580/80571b4b-94d8-482a-b60f-86a58c9ab9ae" style="width: 150px; margin: 5px;">
+  <img src="https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/assets/109305580/bafb91cc-4efe-4e2f-a56d-4f196ee14b00" style="width: 150px; margin: 5px;">
+  <img src="https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/assets/109305580/640c320b-b93c-4097-88ea-d6c8ae687daf" style="width: 150px; margin: 5px;">
+  <img src="https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/assets/109305580/98dfcdca-0414-4909-9b88-480e1d55971b" style="width: 150px; margin: 5px;">
+</div> 
 
 <!-- <div style="display:flex; justify-content:center; overflow-x: auto; flex-wrap: nowrap; width: 100%;">
   <img src="https://github.com/GSC-IIIT-Kota/Client/blob/master/assets/Screeshots/WhatsApp%20Image%202024-03-05%20at%2012.28.55%20PM.jpeg" style="width: 150px; margin: 5px;">
@@ -65,7 +71,6 @@ Farmers lack access to reliable information and support for sustainable agricult
 
 ### Client Side
 - **Framework:** Flutter
-- **State Management:** Provider
 - **API Integration:** HTTP package
 - **UI Components:** Material Design
 
@@ -78,8 +83,8 @@ Farmers lack access to reliable information and support for sustainable agricult
 
 ## 👨🏼‍💻 Getting started + Prerequisites + Installation
 
-1. **Client Side:**https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/blob/main/Client/README.md
-2. **Server Side:**https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/blob/main/Server/README.md
+1. Client Side:https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/blob/main/Client/README.md
+2. Server Side:https://github.com/Wittyhacks4CR004/WH036_Jacobs_Creek/blob/main/Server/README.md
 
 ## 🎯 Future Goals
 
